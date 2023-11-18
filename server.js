@@ -3,7 +3,6 @@ const cors = require('cors');
 
 const app = express();
 
-// Use cors middleware before defining routes
 app.use(cors());
 
 app.get("/*", (req, res) => {
