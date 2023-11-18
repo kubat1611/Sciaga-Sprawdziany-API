@@ -5,232 +5,182 @@ const cors = require('cors')
 app.use(cors())
 
 app.get("/*", (req, res) => {
-    res.json({
-      "topics": [
-        {
-          "title": "Układ mięśniowy",
-          "subtopics": [
-            {
-              "title": "Rodzaje mięśni",
-              "notes": [
-                {
-                  "id": 1,
-                  "content": "Mięśnie szkieletowe to mięśnie przyczepione do kości, umożliwiające poruszanie się. Mięśnie gładkie występują w ścianach narządów wewnętrznych, takich jak żołądek czy jelita. Mięśnie sercowe to specjalny typ mięśni skurczający się w sercu."
-                },
-                {
-                  "id": 2,
-                  "content": "Funkcje mięśni w organizmie są różnorodne, obejmują m.in. utrzymanie postawy ciała, poruszanie się, wsparcie narządów wewnętrznych, czy udział w procesach metabolicznych."
-                },
-                {
-                  "id": 3,
-                  "content": "Mięśnie szkieletowe mogą być podzielone na mięśnie czerwone (wolnokurczliwe) i białe (szybkokurczliwe)."
-                },
-                {
-                  "id": 4,
-                  "content": "Przykładowe główne mięśnie w ciele obejmują: \n - Mięsień czworogłowy uda\n - Mięsień dwugłowy ramienia\n - Mięsień prosty brzucha\n - Mięsień naramienny\n - Mięsień gruszkowaty\n - Mięsień pośladkowy wielki\n - Mięsień trójgłowy ramienia"
-                },
-                {
-                  "id": 5,
-                  "content": "Zdolność mięśni do skurczu i rozciągania umożliwia wykonywanie różnych ruchów, takich jak chód, bieg, czy podnoszenie przedmiotów."
-                }
-              ]
-            },
-            {
-              "title": "Budowa mięśni",
-              "notes": [
-                {
-                  "id": 6,
-                  "content": "Składniki mięśni obejmują włókna mięśniowe, naczynia krwionośne, nerwy i tkankę łączną."
-                },
-                {
-                  "id": 7,
-                  "content": "Włókna mięśniowe zawierają miofibryle, struktury odpowiedzialne za skurcze mięśni."
-                },
-                {
-                  "id": 8,
-                  "content": "Rola białek w funkcjonowaniu mięśni obejmuje m.in. aktynę, miozynę, troponinę i tropomiozynę."
-                }
-              ]
-            },
-            {
-              "title": "Funkcje mięśni",
-              "notes": [
-                {
-                  "id": 9,
-                  "content": "Mięśnie są kluczowym elementem układu ruchu, umożliwiając poruszanie się i utrzymanie postawy ciała."
-                },
-                {
-                  "id": 10,
-                  "content": "Mięśnie biorą udział w procesach metabolicznych, regulując zużycie energii w organizmie."
-                },
-                {
-                  "id": 11,
-                  "content": "Różne typy mięśni pełnią specjalizowane funkcje, np. mięśnie sercowe zapewniają skurcze serca, utrzymując krążenie krwi."
-                }
-              ]
-            },
-            {
-              "title": "Trening mięśni",
-              "notes": [
-                {
-                  "id": 12,
-                  "content": "Regularny trening mięśni przyczynia się do poprawy siły, wytrzymałości i elastyczności mięśni."
-                },
-                {
-                  "id": 13,
-                  "content": "Trening oparty na obciążeniu stymuluje rozwój mięśni, prowadząc do zwiększenia masy mięśniowej."
-                },
-                {
-                  "id": 14,
-                  "content": "Różne formy treningu, takie jak aerobik i trening siłowy, wpływają korzystnie na różne grupy mięśni."
-                }
-              ]
-            },
-            {
-              "title": "Problemy mięśni",
-              "notes": [
-                {
-                  "id": 15,
-                  "content": "Niewłaściwa postawa i brak aktywności fizycznej mogą prowadzić do problemów z mięśniami, takich jak bóle pleców i sztywność mięśni."
-                },
-                {
-                  "id": 16,
-                  "content": "Nadmierna aktywność fizyczna bez odpowiedniego rozgrzewania może prowadzić do kontuzji mięśniowych."
-                },
-                {
-                  "id": 17,
-                  "content": "Nieprawidłowa równowaga między mięśniami agonistycznymi i antagonistycznymi może prowadzić do dysfunkcji ruchowej."
-                }
-              ]
-            },
-            {
-              "title": "Rola mięśni w zdrowiu",
-              "notes": [
-                {
-                  "id": 18,
-                  "content": "Mięśnie pełnią kluczową rolę w utrzymaniu zdrowia układu ruchu, wspierając funkcje stawów i kości."
-                },
-                  {
-                    "id": 19,
-                    "content": "Regularna aktywność fizyczna, w tym trening mięśni, przyczynia się do poprawy ogólnej kondycji i zdrowia serca."
-                  },
-                  {
-                    "id": 20,
-                    "content": "Silne i elastyczne mięśnie redukują ryzyko kontuzji, poprawiają postawę ciała i wpływają pozytywnie na samopoczucie."
-                  }
-                ]
-              },
-              {
-                "title": "Anatomia mięśni",
-                "notes": [
-                  {
-                    "id": 21,
-                    "content": "Mięśnie składają się z wielu włókien mięśniowych, które łączą się w pęczki, tworząc struktury umożliwiające skurcze i rozciąganie."
-                  },
-                  {
-                    "id": 22,
-                    "content": "Anatomia mięśni obejmuje różne partie mięśni, takie jak brzuch, klatka piersiowa, plecy, ramiona i nogi."
-                  },
-                  {
-                    "id": 23,
-                    "content": "Różne grupy mięśni pełnią różnorodne funkcje, np. mięśnie rdzenia stabilizują kręgosłup, podczas gdy mięśnie nóg umożliwiają chód i bieg."
-                  }
-                ]
-              },
-              {
-                "title": "Rozciąganie i elastyczność",
-                "notes": [
-                  {
-                    "id": 24,
-                    "content": "Regularne rozciąganie mięśni poprawia elastyczność i zakres ruchu, co przyczynia się do unikania kontuzji."
-                  },
-                  {
-                    "id": 25,
-                    "content": "Rozciąganie powinno obejmować wszystkie główne grupy mięśni, koncentrując się na miejscach napięcia i skrętu."
-                  },
-                  {
-                    "id": 26,
-                    "content": "Elastyczne mięśnie wspierają prawidłową postawę ciała i pomagają utrzymać równowagę między różnymi grupami mięśni."
-                  }
-                ]
-              },
-              {
-                "title": "Mięśnie a metabolizm",
-                "notes": [
-                  {
-                    "id": 27,
-                    "content": "Mięśnie są aktywnym narządem metabolicznym, przyczyniającym się do spalania kalorii i utrzymania prawidłowej masy ciała."
-                  },
-                  {
-                    "id": 28,
-                    "content": "Trening siłowy zwiększa masę mięśniową, co wpływa korzystnie na tempo przemiany materii."
-                  },
-                  {
-                    "id": 29,
-                    "content": "Odpowiednie odżywianie, w tym dostarczanie białek, jest kluczowe dla regeneracji i wzrostu mięśni."
-                  }
-                ]
-              },
-              {
-                "title": "Mięśnie a starzenie się",
-                "notes": [
-                  {
-                    "id": 30,
-                    "content": "Starzenie się wpływa na masę i funkcję mięśni, prowadząc do utraty siły i elastyczności."
-                  },
-                  {
-                    "id": 31,
-                    "content": "Regularny trening mięśni jest ważny w procesie starzenia, wspierając utrzymanie sprawności fizycznej i niezależności."
-                  },
-                  {
-                    "id": 32,
-                    "content": "Starzenie się mięśni może prowadzić do problemów z równowagą, stabilnością i wykonywaniem codziennych czynności."
-                  }
-                ]
-              }
-            ]
-          },
+    res.json(
+      {
+        "topics": [
           {
-            "title": "Układ kostny",
+            "title": "Polska w XVI wieku",
             "subtopics": [
               {
-                "title": "Struktura kości",
+                "title": "Najważniejsze osoby",
                 "notes": [
                   {
+                    "id": 1,
+                    "content": "Zygmunt I Stary - król Polski w latach 1506–1548"
+                  },
+                  {
+                    "id": 2,
+                    "content": "Bona Sforza - żona Zygmunta I, wpływowa królowa Polski"
+                  },
+                  {
+                    "id": 3,
+                    "content": "Mikołaj Kopernik - astronom, autor teorii heliocentrycznej"
+                  },
+                  {
+                    "id": 4,
+                    "content": "Andrzej Frycz Modrzewski - myśliciel, autor dzieła 'O poprawie Rzeczypospolitej'"
+                  },
+                  {
+                    "id": 5,
+                    "content": "Jan Kochanowski - poeta i humanista, autor 'Trenów' i 'Odprawy posłów greckich'"
+                  },
+                  {
+                    "id": 6,
+                    "content": "Zygmunt II August - ostatni król z dynastii Jagiellonów, panujący w latach 1548–1572"
+                  },
+                  {
+                    "id": 7,
+                    "content": "Barbara Radziwiłłówna - druga żona Zygmunta II Augusta, królowa Polski"
+                  },
+                  {
+                    "id": 8,
+                    "content": "Mikołaj Rej - pisarz, satyryk, autor 'Żywota człowieka poczciwego'"
+                  },
+                  {
                     "id": 9,
-                    "content": "Kości składają się z tkanki kostnej, która może być gąbczasta lub zbita, zależnie od lokalizacji w ciele."
+                    "content": "Stanisław Hozjusz - biskup warmiński, uczestnik Soboru Trydenckiego"
                   },
                   {
                     "id": 10,
-                    "content": "Mozaičność kości oznacza, że są one dynamicznymi strukturami, podlegającymi ciągłej przebudowie."
-                  },
-                  {
-                    "id": 11,
-                    "content": "Kość jest unikalnym narządem, spełniającym funkcje podporowe, ochronne i magazynujące minerały."
+                    "content": "Piotr Skarga - jezuita, kaznodzieja, autor 'Sejmu Czteroletniego'"
                   }
                 ]
               },
               {
-                "title": "Rozwój kości",
+                "title": "Najważniejsze daty",
                 "notes": [
                   {
+                    "id": 11,
+                    "content": "1525 - Hołd pruski, formalne przyłączenie Prus Książęcych do Polski"
+                  },
+                  {
                     "id": 12,
-                    "content": "Kość powstaje poprzez procesy kostnienia, zarówno intramembranowe, jak i endochondralne."
+                    "content": "1569 - Unia Lubelska, zjednoczenie Polski i Litwy w Rzeczpospolitą Obojga Narodów"
                   },
                   {
                     "id": 13,
-                    "content": "U dzieci kości rosną dzięki chrząstkom wzrostowym, a u dorosłych zachodzi proces remodelingu kostnego."
+                    "content": "1573 - Pierwsza wolna elekcja, ustanowienie zasady wolnego wyboru króla"
                   },
                   {
                     "id": 14,
-                    "content": "Hormony, takie jak hormon wzrostu, estrogeny i testosteron, odgrywają kluczową rolę w rozwoju kości."
+                    "content": "1596 - Unia brzeska, zjednoczenie Kościoła prawosławnego z Kościołem katolickim"
+                  },
+                  {
+                    "id": 15,
+                    "content": "1588 - Koronacja Zygmunta III Wazy, początek panowania dynastii Wazów"
+                  },
+                  {
+                    "id": 16,
+                    "content": "1565 - Pokój w Toruniu, zakończenie wojny polsko-krzyżackiej"
+                  },
+                  {
+                    "id": 17,
+                    "content": "1599 - Utworzenie Akademii Zamojskiej, jednej z pierwszych polskich uczelni wyższych"
+                  },
+                  {
+                    "id": 18,
+                    "content": "1555 - Sejm piotrkowski, uchwalenie postanowień o równouprawnieniu wszystkich wyznań"
+                  },
+                  {
+                    "id": 19,
+                    "content": "1518 - Zakładanie mennic królewskich, rozwój gospodarczy kraju"
+                  },
+                  {
+                    "id": 20,
+                    "content": "1564 - Akademia Krakowska otrzymuje przywileje uniwersytetu, wzrost znaczenia ośrodków naukowych"
+                  }
+                ]
+              },
+              {
+                "title": "Aspekty życia",
+                "notes": [
+                  {
+                    "id": 21,
+                    "content": "Rozwój sztuki i architektury, budowa zamków i kościołów renesansowych"
+                  },
+                  {
+                    "id": 22,
+                    "content": "Eksploracja geograficzna, udział Polaków w podróżach i odkryciach"
+                  },
+                  {
+                    "id": 23,
+                    "content": "Rola kobiet w społeczeństwie, wzrost znaczenia edukacji dla dziewcząt"
+                  },
+                  {
+                    "id": 24,
+                    "content": "Dwór królewski i magnateria, życie na dworze królewskim i w rezydencjach magnackich"
+                  },
+                  {
+                    "id": 25,
+                    "content": "Rozwój rzemiosła i handlu, organizacja cechów i gildii"
+                  }
+                ]
+              },
+              {
+                "title": "Najważniejsze wydarzenia",
+                "notes": [
+                  {
+                    "id": 26,
+                    "content": "Bitwa pod Kircholmem (1605) - zwycięstwo Polski nad Szwecją w czasie wojny polsko-szwedzkiej"
+                  },
+                  {
+                    "id": 27,
+                    "content": "Rozbicie dzielnicowe (1562-1572) - próba zreformowania systemu politycznego"
+                  },
+                  {
+                    "id": 28,
+                    "content": "Wojna inflancka (1558–1583) - konflikt z Moskwą o Inflanty, zakończony pokojem w Jamie Zapolskim"
+                  },
+                  {
+                    "id": 29,
+                    "content": "Utworzenie Kolegium Jezuickiego w Krakowie (1579) - rozwój edukacji jezuickiej"
+                  },
+                  {
+                    "id": 30,
+                    "content": "Zakaz druku w języku polskim w Prusach (1520) - próba kontrolowania przepływu informacji przez władze zakonne"
+                  }
+                ]
+              },
+              {
+                "title": "Kultura i nauka",
+                "notes": [
+                  {
+                    "id": 31,
+                    "content": "Rozkwit kultury renesansowej, wpływ włoskich wzorców artystycznych"
+                  },
+                  {
+                    "id": 32,
+                    "content": "Rola Akademii Krakowskiej i innych ośrodków naukowych w XVI wieku"
+                  },
+                  {
+                    "id": 33,
+                    "content": "Działalność humanistów, takich jak Jan Dantyszek czy Marcin Kromer"
+                  },
+                  {
+                    "id": 34,
+                    "content": "Księgi jedyństwa - pierwszy polski podręcznik matematyki autorstwa Jana Łaskiego"
+                  },
+                  {
+                    "id": 35,
+                    "content": "Rozwój literatury polskiej, w tym twórczość Mikołaja Reja i Jana Kochanowskiego"
                   }
                 ]
               }
             ]
           }
-  ]
-});
+        ]
+      }
+  );
 });
 
 
