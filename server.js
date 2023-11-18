@@ -1,12 +1,10 @@
 const express = require('express');
-const cors = require('cors');
-
 const app = express();
+const cors = require('cors')
 
-app.use(cors());
+app.use(cors())
 
 app.get("/*", (req, res) => {
-  app.get("/*", (req, res) => {
     res.json({
       "topics": [
         {
@@ -234,10 +232,11 @@ app.get("/*", (req, res) => {
   ]
 });
 });
-});
+
+
 
 app.listen(5000, () => {
     console.log("Server started on port 5000");
 });
 
-export default app;
+export default app
