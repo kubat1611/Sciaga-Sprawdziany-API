@@ -2,11 +2,12 @@ const express = require('express');
 const app = express();
 const cors = require('cors')
 
-app.use(cors({
-  origin:"https://sciagi-chemia-git-main-kubat1611.vercel.app/",
-  methods:["GET", "POST"]
-}))
-
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*'); // Allow requests from any origin
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.header('Access-Control-Allow-Headers', 'Content-Type');
+  next();
+});
 app.get("/*", (req, res) => {
     res.json({
       "topics": [
@@ -236,7 +237,12 @@ app.get("/*", (req, res) => {
 });
 });
 
-app.use(cors())
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*'); // Allow requests from any origin
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.header('Access-Control-Allow-Headers', 'Content-Type');
+  next();
+});
 
 app.listen(5000, () => {
     console.log("Server started on port 5000");
