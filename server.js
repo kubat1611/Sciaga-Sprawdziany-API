@@ -2,7 +2,9 @@ const express = require('express');
 const app = express();
 const cors = require('cors')
 
-app.use(cors())
+app.use(cors({
+  origin:"https://sciagi-chemia-git-main-kubat1611.vercel.app/"
+}))
 
 app.get("/*", (req, res) => {
     res.json({
