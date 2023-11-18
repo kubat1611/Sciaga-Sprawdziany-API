@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get("/", (req, res) => {
+app.get("/*", (req, res) => {
     res.json({
       "topics": [
         {
@@ -228,10 +228,6 @@ app.get("/", (req, res) => {
           }
   ]
 });
-});
-
-app.get("/*", (req, res) => {
-    res.json("No route found");
 });
 
 app.listen(5000, () => {
