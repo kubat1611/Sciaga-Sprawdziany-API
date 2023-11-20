@@ -9,177 +9,161 @@ app.get("/*", (req, res) => {
       {
         "topics": [
           {
-            "title": "Polska w XVI wieku",
+            "title": "Układ kostny",
             "subtopics": [
               {
-                "title": "Najważniejsze osoby",
+                "title": "Budowa Kości",
                 "notes": [
                   {
                     "id": 1,
-                    "content": "Zygmunt I Stary - król Polski w latach 1506–1548"
+                    "content": "Kość to tkanka twarda, zbudowana z substancji organicznej (kolagen) i nieorganicznej (węglan wapnia)."
                   },
                   {
                     "id": 2,
-                    "content": "Bona Sforza - żona Zygmunta I, wpływowa królowa Polski"
+                    "content": "Kostnina dzieli się na tkankę gąbczastą i zbitą. W tkance gąbczastej znajdują się szpik kostny i komórki kostne, natomiast tkanka zbita tworzy warstwę zewnętrzną kości."
                   },
                   {
                     "id": 3,
-                    "content": "Mikołaj Kopernik - astronom, autor teorii heliocentrycznej"
+                    "content": "Periost - błona pokrywająca z zewnątrz kość, zawiera naczynia krwionośne i nerwy, odpowiada za wzrost i odżywianie kości."
                   },
                   {
                     "id": 4,
-                    "content": "Andrzej Frycz Modrzewski - myśliciel, autor dzieła 'O poprawie Rzeczypospolitej'"
+                    "content": "Kanały Haversa to mikroskopijne kanały w kościach, przez które przechodzą naczynia krwionośne, nerwy i komórki kostne."
                   },
                   {
                     "id": 5,
-                    "content": "Jan Kochanowski - poeta i humanista, autor 'Trenów' i 'Odprawy posłów greckich'"
+                    "content": "Komórki kostne to osteocyty, osteoblasty i osteoklasty, odpowiedzialne za budowę i rozkładanie substancji kostnej."
                   },
                   {
                     "id": 6,
-                    "content": "Zygmunt II August - ostatni król z dynastii Jagiellonów, panujący w latach 1548–1572"
-                  },
+                    "content": "Kość jest dynamiczną strukturą, podlegającą procesom remodelingu, czyli ciągłej przebudowie w odpowiedzi na obciążenia i uszkodzenia."
+                  }
+                ]
+              },
+              {
+                "title": "Rodzaje Kości",
+                "notes": [
                   {
                     "id": 7,
-                    "content": "Barbara Radziwiłłówna - druga żona Zygmunta II Augusta, królowa Polski"
+                    "content": "Kości długie, krótkie, płaskie i pneumatyczne (z jamkami powietrznymi). Przykłady: kość ramieniowa, kręgosłup, kość miednicza, kość sitowa."
                   },
                   {
                     "id": 8,
-                    "content": "Mikołaj Rej - pisarz, satyryk, autor 'Żywota człowieka poczciwego'"
+                    "content": "Kości jamiste zawierają szpik kostny czerwony, produkujący krew. Kości gąbczaste stanowią miejsce magazynowania tłuszczu i szpiku żółtego."
                   },
                   {
                     "id": 9,
-                    "content": "Stanisław Hozjusz - biskup warmiński, uczestnik Soboru Trydenckiego"
+                    "content": "Kość compacta to gęsta, zbita tkanka kostna, zapewniająca sztywność i wytrzymałość kości."
                   },
                   {
                     "id": 10,
-                    "content": "Piotr Skarga - jezuita, kaznodzieja, autor 'Sejmu Czteroletniego'"
+                    "content": "Kości sutkowe to kości, które nie są połączone stawowo, ale elastycznie ze sobą współpracują, umożliwiając ruchy klatki piersiowej."
+                  },
+                  {
+                    "id": 11,
+                    "content": "Kość wormia to kręgi kręgosłupa, stanowiące odcinek szyjny."
                   }
                 ]
               },
               {
-                "title": "Najważniejsze daty",
+                "title": "Funkcje Układu Kostnego",
                 "notes": [
                   {
-                    "id": 11,
-                    "content": "1525 - Hołd pruski, formalne przyłączenie Prus Książęcych do Polski"
-                  },
-                  {
                     "id": 12,
-                    "content": "1569 - Unia Lubelska, zjednoczenie Polski i Litwy w Rzeczpospolitą Obojga Narodów"
+                    "content": "Podpora dla ciała, umożliwia ruchy dzięki połączeniom stawowym."
                   },
                   {
                     "id": 13,
-                    "content": "1573 - Pierwsza wolna elekcja, ustanowienie zasady wolnego wyboru króla"
+                    "content": "Ochrona narządów wewnętrznych, np. czaszka chroni mózg, żebra osłaniają narządy w klatce piersiowej."
                   },
                   {
                     "id": 14,
-                    "content": "1596 - Unia brzeska, zjednoczenie Kościoła prawosławnego z Kościołem katolickim"
+                    "content": "Produkcja krwinek, takich jak erytrocyty, leukocyty i trombocyty, oraz magazynowanie minerałów, zwłaszcza wapnia."
                   },
                   {
                     "id": 15,
-                    "content": "1588 - Koronacja Zygmunta III Wazy, początek panowania dynastii Wazów"
+                    "content": "Kość jest miejscem, w którym zachodzi proces hemopoezy, czyli produkcji krwi."
                   },
                   {
                     "id": 16,
-                    "content": "1565 - Pokój w Toruniu, zakończenie wojny polsko-krzyżackiej"
+                    "content": "Regulacja poziomu wapnia i fosforu we krwi poprzez procesy resorpcji i odkładania minerałów w kościach."
                   },
                   {
                     "id": 17,
-                    "content": "1599 - Utworzenie Akademii Zamojskiej, jednej z pierwszych polskich uczelni wyższych"
-                  },
+                    "content": "Biorą udział w homeostazie, utrzymując równowagę mineralną organizmu."
+                  }
+                ]
+              },
+              {
+                "title": "Zaburzenia i Choroby",
+                "notes": [
                   {
                     "id": 18,
-                    "content": "1555 - Sejm piotrkowski, uchwalenie postanowień o równouprawnieniu wszystkich wyznań"
+                    "content": "Osteoporoza - zmniejszona gęstość kości, zwiększaryzyko złamań."
                   },
                   {
-                    "id": 19,
-                    "content": "1518 - Zakładanie mennic królewskich, rozwój gospodarczy kraju"
+                  "id": 19,
+                  "content": "Artretyzm - choroba stawów, może wpływać na ruchliwość i wytrzymałość kości."
                   },
                   {
-                    "id": 20,
-                    "content": "1564 - Akademia Krakowska otrzymuje przywileje uniwersytetu, wzrost znaczenia ośrodków naukowych"
+                  "id": 20,
+                  "content": "Skolioza - boczne skrzywienie kręgosłupa, może wpływać na równowagę ciała."
+                  },
+                  {
+                  "id": 21,
+                  "content": "Złamania kości - uszkodzenia struktury kostnej, mogą być skutkiem urazu lub osteoporozy."
+                  },
+                  {
+                  "id": 22,
+                  "content": "Osteogeneza - proces gojenia się złamanej kości, obejmuje tworzenie kalusu kostnego i remodelowanie tkanki kostnej."
+                  },
+                  {
+                  "id": 23,
+                  "content": "Zespół stawu skroniowo-żuchwowego (TMJ) - schorzenie dotyczące stawów żuchwowych, prowadzące do bólu i ograniczenia ruchomości szczęki."
+                  },
+                  {
+                  "id": 24,
+                  "content": "Rachitis - krzywica u dzieci, spowodowana niedoborem witaminy D i wapnia, prowadzi do zniekształceń kości."
+                  },
+                  {
+                  "id": 25,
+                  "content": "Nowotwory kości - mogą być zarówno łagodne, jak i złośliwe, wpływając na strukturę i funkcję kości."
+                  },
+                  {
+                  "id": 26,
+                  "content": "Choroba Pageta - zaburzenie, charakteryzujące się nadmiernym rozrostem kości, prowadzącym do deformacji i osłabienia struktury."
                   }
-                ]
-              },
-              {
-                "title": "Aspekty życia",
-                "notes": [
-                  {
-                    "id": 21,
-                    "content": "Rozwój sztuki i architektury, budowa zamków i kościołów renesansowych"
+                  ]
                   },
                   {
-                    "id": 22,
-                    "content": "Eksploracja geograficzna, udział Polaków w podróżach i odkryciach"
+                  "title": "Badania i Diagnostyka",
+                  "notes": [
+                  {
+                  "id": 27,
+                  "content": "RTG - najczęściej stosowane badanie do oceny struktury kostnej i wykrywania złamań."
                   },
                   {
-                    "id": 23,
-                    "content": "Rola kobiet w społeczeństwie, wzrost znaczenia edukacji dla dziewcząt"
+                  "id": 28,
+                  "content": "Densytometria kości - pomiar gęstości mineralnej kości, pomocna w diagnozowaniu osteoporozy."
                   },
                   {
-                    "id": 24,
-                    "content": "Dwór królewski i magnateria, życie na dworze królewskim i w rezydencjach magnackich"
+                  "id": 29,
+                  "content": "Badania krwi - ocena poziomu substancji mineralnych i wskaźników procesów kostnych."
                   },
                   {
-                    "id": 25,
-                    "content": "Rozwój rzemiosła i handlu, organizacja cechów i gildii"
+                  "id": 30,
+                  "content": "Tomografia komputerowa (CT) - szczegółowe badanie struktury kości, przydatne w diagnostyce nowotworów i urazów."
+                  },
+                  {
+                  "id": 31,
+                  "content": "Rezonans magnetyczny (MRI) - obrazowanie struktur miękkich i kości, stosowane w diagnostyce urazów stawów."
                   }
-                ]
-              },
-              {
-                "title": "Najważniejsze wydarzenia",
-                "notes": [
-                  {
-                    "id": 26,
-                    "content": "Bitwa pod Kircholmem (1605) - zwycięstwo Polski nad Szwecją w czasie wojny polsko-szwedzkiej"
-                  },
-                  {
-                    "id": 27,
-                    "content": "Rozbicie dzielnicowe (1562-1572) - próba zreformowania systemu politycznego"
-                  },
-                  {
-                    "id": 28,
-                    "content": "Wojna inflancka (1558–1583) - konflikt z Moskwą o Inflanty, zakończony pokojem w Jamie Zapolskim"
-                  },
-                  {
-                    "id": 29,
-                    "content": "Utworzenie Kolegium Jezuickiego w Krakowie (1579) - rozwój edukacji jezuickiej"
-                  },
-                  {
-                    "id": 30,
-                    "content": "Zakaz druku w języku polskim w Prusach (1520) - próba kontrolowania przepływu informacji przez władze zakonne"
+                  ]
                   }
-                ]
-              },
-              {
-                "title": "Kultura i nauka",
-                "notes": [
-                  {
-                    "id": 31,
-                    "content": "Rozkwit kultury renesansowej, wpływ włoskich wzorców artystycznych"
-                  },
-                  {
-                    "id": 32,
-                    "content": "Rola Akademii Krakowskiej i innych ośrodków naukowych w XVI wieku"
-                  },
-                  {
-                    "id": 33,
-                    "content": "Działalność humanistów, takich jak Jan Dantyszek czy Marcin Kromer"
-                  },
-                  {
-                    "id": 34,
-                    "content": "Księgi jedyństwa - pierwszy polski podręcznik matematyki autorstwa Jana Łaskiego"
-                  },
-                  {
-                    "id": 35,
-                    "content": "Rozwój literatury polskiej, w tym twórczość Mikołaja Reja i Jana Kochanowskiego"
+                  ]
                   }
-                ]
-              }
-            ]
-          }
-        ]
-      }
+                  ]
+                  }
   );
 });
 
