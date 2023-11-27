@@ -7,163 +7,103 @@ app.use(cors())
 app.get("/*", (req, res) => {
     res.json(
       {
-        "topics": [
-          {
-            "title": "Układ kostny",
-            "subtopics": [
-              {
-                "title": "Budowa Kości",
-                "notes": [
-                  {
-                    "id": 1,
-                    "content": "Kość to tkanka twarda, zbudowana z substancji organicznej (kolagen) i nieorganicznej (węglan wapnia)."
-                  },
-                  {
-                    "id": 2,
-                    "content": "Kostnina dzieli się na tkankę gąbczastą i zbitą. W tkance gąbczastej znajdują się szpik kostny i komórki kostne, natomiast tkanka zbita tworzy warstwę zewnętrzną kości."
-                  },
-                  {
-                    "id": 3,
-                    "content": "Periost - błona pokrywająca z zewnątrz kość, zawiera naczynia krwionośne i nerwy, odpowiada za wzrost i odżywianie kości."
-                  },
-                  {
-                    "id": 4,
-                    "content": "Kanały Haversa to mikroskopijne kanały w kościach, przez które przechodzą naczynia krwionośne, nerwy i komórki kostne."
-                  },
-                  {
-                    "id": 5,
-                    "content": "Komórki kostne to osteocyty, osteoblasty i osteoklasty, odpowiedzialne za budowę i rozkładanie substancji kostnej."
-                  },
-                  {
-                    "id": 6,
-                    "content": "Kość jest dynamiczną strukturą, podlegającą procesom remodelingu, czyli ciągłej przebudowie w odpowiedzi na obciążenia i uszkodzenia."
-                  }
-                ]
-              },
-              {
-                "title": "Rodzaje Kości",
-                "notes": [
-                  {
-                    "id": 7,
-                    "content": "Kości długie, krótkie, płaskie i pneumatyczne (z jamkami powietrznymi). Przykłady: kość ramieniowa, kręgosłup, kość miednicza, kość sitowa."
-                  },
-                  {
-                    "id": 8,
-                    "content": "Kości jamiste zawierają szpik kostny czerwony, produkujący krew. Kości gąbczaste stanowią miejsce magazynowania tłuszczu i szpiku żółtego."
-                  },
-                  {
-                    "id": 9,
-                    "content": "Kość compacta to gęsta, zbita tkanka kostna, zapewniająca sztywność i wytrzymałość kości."
-                  },
-                  {
-                    "id": 10,
-                    "content": "Kości sutkowe to kości, które nie są połączone stawowo, ale elastycznie ze sobą współpracują, umożliwiając ruchy klatki piersiowej."
-                  },
-                  {
-                    "id": 11,
-                    "content": "Kość wormia to kręgi kręgosłupa, stanowiące odcinek szyjny."
-                  }
-                ]
-              },
-              {
-                "title": "Funkcje Układu Kostnego",
-                "notes": [
-                  {
-                    "id": 12,
-                    "content": "Podpora dla ciała, umożliwia ruchy dzięki połączeniom stawowym."
-                  },
-                  {
-                    "id": 13,
-                    "content": "Ochrona narządów wewnętrznych, np. czaszka chroni mózg, żebra osłaniają narządy w klatce piersiowej."
-                  },
-                  {
-                    "id": 14,
-                    "content": "Produkcja krwinek, takich jak erytrocyty, leukocyty i trombocyty, oraz magazynowanie minerałów, zwłaszcza wapnia."
-                  },
-                  {
-                    "id": 15,
-                    "content": "Kość jest miejscem, w którym zachodzi proces hemopoezy, czyli produkcji krwi."
-                  },
-                  {
-                    "id": 16,
-                    "content": "Regulacja poziomu wapnia i fosforu we krwi poprzez procesy resorpcji i odkładania minerałów w kościach."
-                  },
-                  {
-                    "id": 17,
-                    "content": "Biorą udział w homeostazie, utrzymując równowagę mineralną organizmu."
-                  }
-                ]
-              },
-              {
-                "title": "Zaburzenia i Choroby",
-                "notes": [
-                  {
-                    "id": 18,
-                    "content": "Osteoporoza - zmniejszona gęstość kości, zwiększaryzyko złamań."
-                  },
-                  {
-                  "id": 19,
-                  "content": "Artretyzm - choroba stawów, może wpływać na ruchliwość i wytrzymałość kości."
-                  },
-                  {
-                  "id": 20,
-                  "content": "Skolioza - boczne skrzywienie kręgosłupa, może wpływać na równowagę ciała."
-                  },
-                  {
-                  "id": 21,
-                  "content": "Złamania kości - uszkodzenia struktury kostnej, mogą być skutkiem urazu lub osteoporozy."
-                  },
-                  {
-                  "id": 22,
-                  "content": "Osteogeneza - proces gojenia się złamanej kości, obejmuje tworzenie kalusu kostnego i remodelowanie tkanki kostnej."
-                  },
-                  {
-                  "id": 23,
-                  "content": "Zespół stawu skroniowo-żuchwowego (TMJ) - schorzenie dotyczące stawów żuchwowych, prowadzące do bólu i ograniczenia ruchomości szczęki."
-                  },
-                  {
-                  "id": 24,
-                  "content": "Rachitis - krzywica u dzieci, spowodowana niedoborem witaminy D i wapnia, prowadzi do zniekształceń kości."
-                  },
-                  {
-                  "id": 25,
-                  "content": "Nowotwory kości - mogą być zarówno łagodne, jak i złośliwe, wpływając na strukturę i funkcję kości."
-                  },
-                  {
-                  "id": 26,
-                  "content": "Choroba Pageta - zaburzenie, charakteryzujące się nadmiernym rozrostem kości, prowadzącym do deformacji i osłabienia struktury."
-                  }
-                  ]
-                  },
-                  {
-                  "title": "Badania i Diagnostyka",
-                  "notes": [
-                  {
-                  "id": 27,
-                  "content": "RTG - najczęściej stosowane badanie do oceny struktury kostnej i wykrywania złamań."
-                  },
-                  {
-                  "id": 28,
-                  "content": "Densytometria kości - pomiar gęstości mineralnej kości, pomocna w diagnozowaniu osteoporozy."
-                  },
-                  {
-                  "id": 29,
-                  "content": "Badania krwi - ocena poziomu substancji mineralnych i wskaźników procesów kostnych."
-                  },
-                  {
-                  "id": 30,
-                  "content": "Tomografia komputerowa (CT) - szczegółowe badanie struktury kości, przydatne w diagnostyce nowotworów i urazów."
-                  },
-                  {
-                  "id": 31,
-                  "content": "Rezonans magnetyczny (MRI) - obrazowanie struktur miękkich i kości, stosowane w diagnostyce urazów stawów."
-                  }
-                  ]
-                  }
-                  ]
-                  }
-                  ]
-                  }
+"topics": [
+{
+"title": "Świat w XVII Wieku",
+"subtopics": [
+{
+"title": "Polityka i Władza",
+"notes": [
+{
+"id": 1,
+"content": "XVII wiek to okres absolutyzmu, gdzie wielu monarchów dążyło do centralizacji władzy. Przykłady to Ludwik XIV we Francji i Karol I w Anglii."
+},
+{
+"id": 2,
+"content": "Wojna Trzydziestoletnia (1618-1648) była konfliktem o dominację religijną i polityczną w Europie Środkowej, mającym wpływ na układ sił w regionie."
+},
+{
+"id": 3,
+"content": "Pokój Westfalski (1648) zakończył wojnę trzydziestoletnią, ustanawiając zasadę suwerennego państwa narodowego."
+},
+{
+"id": 4,
+"content": "Wielka Rewolucja Francuska (1789) to wydarzenie poprzedzającego XVIII wieku, ale miało korzenie w napięciach społecznych i politycznych XVII wieku."
+}
+]
+},
+{
+"title": "Odkrycia i Kolonializm",
+"notes": [
+{
+"id": 5,
+"content": "Okres ten to intensywny rozwój podróży morskich i odkryć geograficznych. Kapitan James Cook eksplorował Pacyfik, a Abel Tasman dotarł do Australii i Nowej Zelandii."
+},
+{
+"id": 6,
+"content": "Kolonializm był powszechny, z dominacją mocarstw europejskich nad obszarami w Azji, Afryce i Ameryce."
+},
+{
+"id": 7,
+"content": "East India Company odegrała kluczową rolę w handlu i kolonizacji brytyjskiej w Indiach."
+}
+]
+},
+{
+"title": "Kultura i Nauka",
+"notes": [
+{
+"id": 8,
+"content": "Okres baroku to dominujący styl artystyczny, obejmujący sztukę, literaturę i architekturę."
+},
+{
+"id": 9,
+"content": "Rozwój nauki obejmował prace Galileusza, który wspierał heliocentryczny model świata, oraz Newtona, który sformułował prawa ruchu i grawitacji."
+},
+{
+"id": 10,
+"content": "Oświecenie zaczęło kształtować myślenie społeczne i filozoficzne pod koniec XVII wieku, kładąc nacisk na rozum, naukę i tolerancję."
+}
+]
+},
+{
+"title": "Ekonomiczne i Społeczne Zmiany",
+"notes": [
+{
+"id": 11,
+"content": "Rozwój handlu globalnego przyczynił się do powstania pierwszych korporacji handlowych, takich jak Holenderska Kompania Zachodnioindyjska."
+},
+{
+"id": 12,
+"content": "Początki kapitalizmu: XVII wiek to czas, gdy kapitalizm zaczął kształtować nowoczesne formy gospodarki, opartej na zysku i wolnym rynku."
+},
+{
+"id": 13,
+"content": "Wzrost roli klas średnich, a równocześnie nasilenie nierówności społecznych."
+}
+]
+},
+{
+"title": "Konflikty i Innowacje Wojskowe",
+"notes": [
+{
+"id": 14,
+"content": "Wprowadzenie muszkietów i artylerii zmieniło taktykę wojenną. Formacje pikiety straciły na znaczeniu na rzecz regularnej piechoty."
+},
+{
+"id": 15,
+"content": "Wojny angielsko-niderlandzkie były serią konfliktów o dominację morsko-handlową."
+},
+{
+"id": 16,
+"content": "Przełom w sztuce wojennej to także okres, gdy kawaleria zaczęła tracić na znaczeniu na rzecz bardziej zorganizowanych oddziałów piechoty."
+}
+]
+}
+]
+}
+]
+}
   );
 });
 
