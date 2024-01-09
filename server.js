@@ -9,97 +9,54 @@ app.get("/*", (req, res) => {
       {
 "topics": [
 {
-"title": "Świat w XVII Wieku",
+"title": "Zmiany na mapie politycznej",
 "subtopics": [
 {
-"title": "Polityka i Władza",
+"title": "Państwa",
 "notes": [
 {
 "id": 1,
-"content": "XVII wiek to okres absolutyzmu, gdzie wielu monarchów dążyło do centralizacji władzy. Przykłady to Ludwik XIV we Francji i Karol I w Anglii."
+"content": "Obecnie na świecie jest około 160 państw"
 },
 {
 "id": 2,
-"content": "Wojna Trzydziestoletnia (1618-1648) była konfliktem o dominację religijną i polityczną w Europie Środkowej, mającym wpływ na układ sił w regionie."
+"content": "Aby można było uznać państwo potrzebne są 3 główne cechy: 1. Suwerenna władza 2. Wytyczone terytorium 3. Ludność, która jest świadoma swojej narodowości"
 },
 {
 "id": 3,
-"content": "Pokój Westfalski (1648) zakończył wojnę trzydziestoletnią, ustanawiając zasadę suwerennego państwa narodowego."
+"content": "Uznanie międzynarodowe jest ważnym aspektem w tworzeniu się nowego państwa"
 },
 {
 "id": 4,
-"content": "Wielka Rewolucja Francuska (1789) to wydarzenie poprzedzającego XVIII wieku, ale miało korzenie w napięciach społecznych i politycznych XVII wieku."
+"content": "Lista największych kraji na świecie: 1.Rosja 2.Kanada 3.Stany Zjednoczone 4.Chiny 5.Brazylia"
+},
+{"id" : 5,
+"content" : "Najmniejszy kraj na swiecie to Watykan"
+
 }
 ]
 },
 {
-"title": "Odkrycia i Kolonializm",
+"title": "Kolonializm",
 "notes": [
 {
 "id": 5,
-"content": "Okres ten to intensywny rozwój podróży morskich i odkryć geograficznych. Kapitan James Cook eksplorował Pacyfik, a Abel Tasman dotarł do Australii i Nowej Zelandii."
+"content": "Zjawisko kolonializmu polegało na przejmowaniu kontroli nad słabiej rozwiniętym regionem i wykorzystywaniu go gospodarczo"
 },
 {
 "id": 6,
-"content": "Kolonializm był powszechny, z dominacją mocarstw europejskich nad obszarami w Azji, Afryce i Ameryce."
+"content": " O początkach kolonializmu możemy mówić od odkrycia Ameryki przez Krzysztofa Kolumba"
 },
 {
 "id": 7,
-"content": "East India Company odegrała kluczową rolę w handlu i kolonizacji brytyjskiej w Indiach."
+"content": "kolonizacja - Zakładanie osad, eksploatacja zasobów naturalnych, Podbój przez kraje europejskie oraz kontrola polityczna."
+},
+{
+"id" : 8,
+"content" : "dekolonizacja - Odzyskiwanie przez kraje niepodległości, W Afryce- głównie w drugiej połowie XX wieku"
 }
 ]
 },
-{
-"title": "Kultura i Nauka",
-"notes": [
-{
-"id": 8,
-"content": "Okres baroku to dominujący styl artystyczny, obejmujący sztukę, literaturę i architekturę."
-},
-{
-"id": 9,
-"content": "Rozwój nauki obejmował prace Galileusza, który wspierał heliocentryczny model świata, oraz Newtona, który sformułował prawa ruchu i grawitacji."
-},
-{
-"id": 10,
-"content": "Oświecenie zaczęło kształtować myślenie społeczne i filozoficzne pod koniec XVII wieku, kładąc nacisk na rozum, naukę i tolerancję."
-}
-]
-},
-{
-"title": "Ekonomiczne i Społeczne Zmiany",
-"notes": [
-{
-"id": 11,
-"content": "Rozwój handlu globalnego przyczynił się do powstania pierwszych korporacji handlowych, takich jak Holenderska Kompania Zachodnioindyjska."
-},
-{
-"id": 12,
-"content": "Początki kapitalizmu: XVII wiek to czas, gdy kapitalizm zaczął kształtować nowoczesne formy gospodarki, opartej na zysku i wolnym rynku."
-},
-{
-"id": 13,
-"content": "Wzrost roli klas średnich, a równocześnie nasilenie nierówności społecznych."
-}
-]
-},
-{
-"title": "Konflikty i Innowacje Wojskowe",
-"notes": [
-{
-"id": 14,
-"content": "Wprowadzenie muszkietów i artylerii zmieniło taktykę wojenną. Formacje pikiety straciły na znaczeniu na rzecz regularnej piechoty."
-},
-{
-"id": 15,
-"content": "Wojny angielsko-niderlandzkie były serią konfliktów o dominację morsko-handlową."
-},
-{
-"id": 16,
-"content": "Przełom w sztuce wojennej to także okres, gdy kawaleria zaczęła tracić na znaczeniu na rzecz bardziej zorganizowanych oddziałów piechoty."
-}
-]
-}
 ]
 }
 ]
