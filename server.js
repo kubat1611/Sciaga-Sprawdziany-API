@@ -9,48 +9,63 @@ app.get("/*", (req, res) => {
         {
   "topics": [
     {
-      "title": "Polska w XVII wieku",
+      "title": "Zmiany na mapie politycznej",
       "subtopics": [
         {
-          "title": "Historia Polski",
+          "title": "Państwa",
           "notes": [
             {
               "id": 1,
-              "content": "XVII wiek to okres istotny dla historii Polski, zwłaszcza z uwagi na liczne wydarzenia polityczne, społeczne i kulturalne."
+              "content": "Obecnie na świecie jest około 160 państw."
             },
             {
               "id": 2,
-              "content": "Rządy króla Jana III Sobieskiego były jednym z najważniejszych momentów tego stulecia."
+              "content": "Aby można było uznać państwo, potrzebne są 3 główne cechy: 1. Suwerenna władza 2. Wytyczone terytorium 3. Ludność, która jest świadoma swojej narodowości."
             },
             {
               "id": 3,
-              "content": "W tym okresie Polska była państwem o stosunkowo dużym terytorium, sięgającym Bałtyku na północy i Morza Czarnego na południu."
-            }
-          ]
-        },
-        {
-          "title": "Wojny i konflikty",
-          "notes": [
+              "content": "Uznanie międzynarodowe jest ważnym aspektem w tworzeniu się nowego państwa."
+            },
             {
               "id": 4,
-              "content": "Polska była zaangażowana w różne konflikty w XVII wieku, takie jak wojny z Turcją, Rosją i Szwecją."
+              "content": "Lista największych kraji na świecie: 1. Rosja 2. Kanada 3. Stany Zjednoczone 4. Chiny 5. Brazylia."
             },
             {
               "id": 5,
-              "content": "Bitwa pod Kircholmem w 1605 roku była jednym z ważniejszych starć z udziałem Polski w XVII wieku."
+              "content": "Najmniejszy kraj na świecie to Watykan."
+            },
+            {
+              "id": 6,
+              "content": "W XXI wieku obserwujemy dynamiczne zmiany granic państw, zarówno w wyniku procesów politycznych, jak i naturalnych."
+            },
+            {
+              "id": 7,
+              "content": "Globalizacja wpływa na relacje międzynarodowe, prowadząc do współpracy oraz konfliktów."
             }
           ]
         },
         {
-          "title": "Kultura i nauka",
+          "title": "Kolonializm",
           "notes": [
             {
-              "id": 6,
-              "content": "W XVII wieku rozwijała się kultura i sztuka w Polsce, szczególnie w okresie baroku."
+              "id": 8,
+              "content": "Zjawisko kolonializmu polegało na przejmowaniu kontroli nad słabiej rozwiniętym regionem i wykorzystywaniu go gospodarczo."
             },
             {
-              "id": 7,
-              "content": "W tym czasie działalność artystyczna takich postaci jak Jan III Sobieski, król-pisarz, miała duże znaczenie dla polskiej kultury."
+              "id": 9,
+              "content": "O początkach kolonializmu możemy mówić od odkrycia Ameryki przez Krzysztofa Kolumba."
+            },
+            {
+              "id": 10,
+              "content": "Kolonizacja to zakładanie osad, eksploatacja zasobów naturalnych, podbój przez kraje europejskie oraz kontrola polityczna."
+            },
+            {
+              "id": 11,
+              "content": "Dekolonizacja to proces odzyskiwania przez kraje niepodległości, szczególnie widoczny w Afryce w drugiej połowie XX wieku."
+            },
+            {
+              "id": 12,
+              "content": "Dziedzictwo kolonializmu ma wpływ na współczesne stosunki międzynarodowe oraz rozwój ekonomiczny niektórych regionów."
             }
           ]
         }
@@ -73,6 +88,14 @@ app.get("/*", (req, res) => {
             {
               "id": 3,
               "content": "Woda jest polarnym rozpuszczalnikiem, co wpływa na zdolność rozpuszczania zarówno substancji polarnych, jak i niepolarnych."
+            },
+            {
+              "id": 4,
+              "content": "Roztwory wodne są szeroko stosowane w życiu codziennym, m.in. jako środki transportu substancji odżywczych w organizmach żywych."
+            },
+            {
+              "id": 5,
+              "content": "Woda posiada unikalne właściwości, takie jak wysokie ciepło właściwe i zdolność do tworzenia mostków wodorowych."
             }
           ]
         },
@@ -80,16 +103,20 @@ app.get("/*", (req, res) => {
           "title": "Rodzaje roztworów",
           "notes": [
             {
-              "id": 4,
+              "id": 6,
               "content": "Roztwory mogą być nasycone, nienasycone lub przesycone, w zależności od ilości rozpuszczonego ciała stałego w danej chwili."
             },
             {
-              "id": 5,
+              "id": 7,
               "content": "Roztwory mogą być jednorodne lub niejednorodne ze względu na równomierność dystrybucji składników."
             },
             {
-              "id": 6,
+              "id": 8,
               "content": "Roztwory mogą być elektrolitami (przewodzącymi prąd elektryczny) lub nieelektrolitami, w zależności od zdolności do rozpadu na jony."
+            },
+            {
+              "id": 9,
+              "content": "W chemii organicznej istnieje wiele rozpuszczalników organicznych, które mają różne właściwości w porównaniu do wody."
             }
           ]
         },
@@ -97,16 +124,20 @@ app.get("/*", (req, res) => {
           "title": "Stężenie roztworów",
           "notes": [
             {
-              "id": 7,
+              "id": 10,
               "content": "Stężenie roztworu to ilość rozpuszczonej substancji w danej ilości rozpuszczalnika, mierzone jako masa lub molowość."
             },
             {
-              "id": 8,
+              "id": 11,
               "content": "Procentowa masa mówi nam, ile gramów substancji znajduje się w 100 gramach roztworu."
             },
             {
-              "id": 9,
+              "id": 12,
               "content": "Molalność to stosunek liczby moli rozpuszczonej substancji do masy rozpuszczalnika w kilogramach."
+            },
+            {
+              "id": 13,
+              "content": "W praktyce, naukowcy często pracują z roztworami o precyzyjnie określonym stężeniu w celu przeprowadzania eksperymentów i analiz chemicznych."
             }
           ]
         }
