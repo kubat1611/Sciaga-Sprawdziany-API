@@ -57,65 +57,9 @@ app.get("/*", (req, res) => {
                     ]
                 }
             ]
-        }),
-
-     {
-      "title": "Chemia roztworów wodnych",
-      "subtopics": [
-        {
-          "title": "Roztwory wodne",
-          "notes": [
-            {
-              "id": 1,
-              "content": "Roztwory wodne są powszechnym zjawiskiem w chemii, gdzie woda działa jako rozpuszczalnik dla różnych substancji."
-            },
-            {
-              "id": 2,
-              "content": "Właściwości roztworów wodnych, takie jak rozpuszczalność i przewodnictwo elektryczne, są istotne dla zrozumienia reakcji chemicznych."
-            },
-            {
-              "id": 3,
-              "content": "Woda jest polarnym rozpuszczalnikiem, co wpływa na zdolność rozpuszczania zarówno substancji polarnych, jak i niepolarnych."
-            }
-          ]
         },
-        {
-          "title": "Rodzaje roztworów",
-          "notes": [
-            {
-              "id": 4,
-              "content": "Roztwory mogą być nasycone, nienasycone lub przesycone, w zależności od ilości rozpuszczonego ciała stałego w danej chwili."
-            },
-            {
-              "id": 5,
-              "content": "Roztwory mogą być jednorodne lub niejednorodne ze względu na równomierność dystrybucji składników."
-            },
-            {
-              "id": 6,
-              "content": "Roztwory mogą być elektrolitami (przewodzącymi prąd elektryczny) lub nieelektrolitami, w zależności od zdolności do rozpadu na jony."
-            }
-          ]
-        },
-        {
-          "title": "Stężenie roztworów",
-          "notes": [
-            {
-              "id": 7,
-              "content": "Stężenie roztworu to ilość rozpuszczonej substancji w danej ilości rozpuszczalnika, mierzone jako masa lub molowość."
-            },
-            {
-              "id": 8,
-              "content": "Procentowa masa mówi nam, ile gramów substancji znajduje się w 100 gramach roztworu."
-            },
-            {
-              "id": 9,
-              "content": "Molalność to stosunek liczby moli rozpuszczonej substancji do masy rozpuszczalnika w kilogramach."
-            }
-          ]
-        }
-      ]
-    }
 
+        )
 });
 
 
