@@ -9,63 +9,48 @@ app.get("/*", (req, res) => {
         {
   "topics": [
     {
-      "title": "Zmiany na mapie politycznej",
+      "title": "Polska w XVII wieku",
       "subtopics": [
         {
-          "title": "Państwa",
+          "title": "Historia Polski",
           "notes": [
             {
               "id": 1,
-              "content": "Obecnie na świecie jest około 160 państw."
+              "content": "XVII wiek to okres istotny dla historii Polski, zwłaszcza z uwagi na liczne wydarzenia polityczne, społeczne i kulturalne."
             },
             {
               "id": 2,
-              "content": "Aby można było uznać państwo, potrzebne są 3 główne cechy: 1. Suwerenna władza 2. Wytyczone terytorium 3. Ludność, która jest świadoma swojej narodowości."
+              "content": "Rządy króla Jana III Sobieskiego były jednym z najważniejszych momentów tego stulecia."
             },
             {
               "id": 3,
-              "content": "Uznanie międzynarodowe jest ważnym aspektem w tworzeniu się nowego państwa."
-            },
-            {
-              "id": 4,
-              "content": "Lista największych kraji na świecie: 1. Rosja 2. Kanada 3. Stany Zjednoczone 4. Chiny 5. Brazylia."
-            },
-            {
-              "id": 5,
-              "content": "Najmniejszy kraj na świecie to Watykan."
-            },
-            {
-              "id": 6,
-              "content": "W XXI wieku obserwujemy dynamiczne zmiany granic państw, zarówno w wyniku procesów politycznych, jak i naturalnych."
-            },
-            {
-              "id": 7,
-              "content": "Globalizacja wpływa na relacje międzynarodowe, prowadząc do współpracy oraz konfliktów."
+              "content": "W tym okresie Polska była państwem o stosunkowo dużym terytorium, sięgającym Bałtyku na północy i Morza Czarnego na południu."
             }
           ]
         },
         {
-          "title": "Kolonializm",
+          "title": "Wojny i konflikty",
           "notes": [
             {
-              "id": 8,
-              "content": "Zjawisko kolonializmu polegało na przejmowaniu kontroli nad słabiej rozwiniętym regionem i wykorzystywaniu go gospodarczo."
+              "id": 4,
+              "content": "Polska była zaangażowana w różne konflikty w XVII wieku, takie jak wojny z Turcją, Rosją i Szwecją."
             },
             {
-              "id": 9,
-              "content": "O początkach kolonializmu możemy mówić od odkrycia Ameryki przez Krzysztofa Kolumba."
+              "id": 5,
+              "content": "Bitwa pod Kircholmem w 1605 roku była jednym z ważniejszych starć z udziałem Polski w XVII wieku."
+            }
+          ]
+        },
+        {
+          "title": "Kultura i nauka",
+          "notes": [
+            {
+              "id": 6,
+              "content": "W XVII wieku rozwijała się kultura i sztuka w Polsce, szczególnie w okresie baroku."
             },
             {
-              "id": 10,
-              "content": "Kolonizacja to zakładanie osad, eksploatacja zasobów naturalnych, podbój przez kraje europejskie oraz kontrola polityczna."
-            },
-            {
-              "id": 11,
-              "content": "Dekolonizacja to proces odzyskiwania przez kraje niepodległości, szczególnie widoczny w Afryce w drugiej połowie XX wieku."
-            },
-            {
-              "id": 12,
-              "content": "Dziedzictwo kolonializmu ma wpływ na współczesne stosunki międzynarodowe oraz rozwój ekonomiczny niektórych regionów."
+              "id": 7,
+              "content": "W tym czasie działalność artystyczna takich postaci jak Jan III Sobieski, król-pisarz, miała duże znaczenie dla polskiej kultury."
             }
           ]
         }
