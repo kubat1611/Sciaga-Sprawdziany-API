@@ -56,6 +56,168 @@ app.get("/*", (req, res) => {
         }
       ]
     },
+       {
+      "title": "Układ Pokarmowy",
+      "subtopics": [
+        {
+          "title": "Przełyk",
+          "notes": [
+            {
+              "id": 1,
+              "content": "Ruchy robaczkowe (inaczej ruchy perystaltyczne) naprzemienne skurcze i rozkurcze."
+            },
+            {
+              "id": 2,
+              "content": "Przełyk to mięśnie gładkie, których funkcją jest dostarczenie pokarmu z gardła do żołądka."
+            }
+          ]
+        },
+        {
+          "title": "Żołądek",
+          "notes": [
+            {
+              "id": 3,
+              "content": "Pokarm jest mieszany, a sok żołądkowy zawiera enzymy trawienne oraz sok solny, tworzący środowisko dla enzymów trawiennych."
+            },
+            {
+              "id": 4,
+              "content": "Enzymy w żołądku rozkładają wielocukry, tłuszcze i białka."
+            },
+            {
+              "id": 5,
+              "content": "Istnieją różne typy żołądków, z których każdy pełni określoną funkcję w procesie trawienia."
+            }
+          ]
+        },
+        {
+          "title": "Kosmki Jelitowe",
+          "notes": [
+            {
+              "id": 6,
+              "content": "Powierzchnia chłonna jelita jest powiększana przez kosmki jelitowe, które są wypełnione licznymi naczyniami krwionośnymi."
+            },
+            {
+              "id": 7,
+              "content": "Kosmki jelitowe odgrywają kluczową rolę w procesie wchłaniania substancji odżywczych."
+            }
+          ]
+        },
+        {
+          "title": "Jelito Cienkie",
+          "notes": [
+            {
+              "id": 8,
+              "content": "Najdłuższa część przewodu pokarmowego, położona pomiędzy żołądkiem a jelitem grubym."
+            },
+            {
+              "id": 9,
+              "content": "Jelito cienkie zajmuje okolicę pępkową, podbrzuszną, obie okolice biodrowe oraz częściowo miednicę małą."
+            }
+          ]
+        },
+        {
+          "title": "Jelito Grube",
+          "notes": [
+            {
+              "id": 10,
+              "content": "Nowotwór jelita grubego jest najczęstszym nowotworem w Polsce i trudnym do wyleczenia. Wykrywa się poprzez kolonoskopię."
+            },
+            {
+              "id": 11,
+              "content": "W jelicie grubym występuje ponad 400 gatunków bakterii, które pomagają w trawieniu błonnika."
+            },
+            {
+              "id": 12,
+              "content": "W jelitach grubych zachodzi proces odciągania wody, zapobiegając odwodnieniu."
+            }
+          ]
+        },
+        {
+          "title": "Odbyt",
+          "notes": [
+            {
+              "id": 13,
+              "content": "Ok. 200 kg dziennie przechodzi przez odbyt, a częstość wypróżnień wynosi od 3 razy dziennie do 3 razy tygodniowo."
+            }
+          ]
+        },
+        {
+          "title": "Wątroba",
+          "notes": [
+            {
+              "id": 14,
+              "content": "Wątroba produkuje żółć, która ułatwia trawienie tłuszczy, przechowywaną w pęcherzyku żółciowym."
+            }
+          ]
+        },
+        {
+          "title": "Trzustka",
+          "notes": [
+            {
+              "id": 15,
+              "content": "Trzustka jest gruczołem wytwarzającym sok trzustkowy, umożliwiający trawienie pokarmu w dwunastnicy."
+            }
+          ]
+        },
+        {
+          "title": "Zęby Człowieka",
+          "notes": [
+            {
+              "id": 16,
+              "content": "Dorosły człowiek ma 32 zęby stałe, a dzieci 20 zębów. Zęby składają się z szkliwa, zębiny, dziąsła i miazgi."
+            },
+            {
+              "id": 17,
+              "content": "Rodzaje zębów obejmują siekacze, kły, przedtrzonowe i trzonowe, z różnymi funkcjami w procesie trawienia."
+            }
+          ]
+        },
+        {
+          "title": "Trawienie Cukrów",
+          "notes": [
+            {
+              "id": 18,
+              "content": "Proces trawienia cukrów zaczyna się w jamie ustnej poprzez ślinę zawierającą amylazę ślinową."
+            },
+            {
+              "id": 19,
+              "content": "W trzustce i dwunastnicy trawienie cukrów kontynuuje się za pomocą soków trzustkowych i jelitowych."
+            }
+          ]
+        },
+        {
+          "title": "Trawienie Białek",
+          "notes": [
+            {
+              "id": 20,
+              "content": "Trawienie białek rozpoczyna się w żołądku poprzez działanie peptydaz, a następnie kontynuuje się w dwunastnicy za pomocą soków trzustkowych i jelitowych."
+            }
+          ]
+        },
+        {
+          "title": "Trawienie Tłuszczów",
+          "notes": [
+            {
+              "id": 21,
+              "content": "Emulgacja tłuszczy, dzięki żółci wydzielanej przez wątrobę, umożliwia ich rozkład w dwunastnicy za pomocą lipaz."
+            }
+          ]
+        },
+        {
+          "title": "BMI",
+          "notes": [
+            {
+              "id": 22,
+              "content": "BMI (Body Mass Index) to wskaźnik masy ciała, obliczany jako masa ciała (kg) podzielona przez wzrost (w m^2)."
+            },
+            {
+              "id": 23,
+              "content": "Wartości BMI pozwalają określić, czy mamy do czynienia z niedowagą, prawidłową wagą, nadwagą czy otyłością."
+            }
+          ]
+        }
+      ]
+    },
     {
       "title": "Chemia roztworów wodnych",
       "subtopics": [
