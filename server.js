@@ -12,45 +12,44 @@ app.get("/*", (req, res) => {
       "title": "Polska w XVII wieku",
       "subtopics": [
         {
-          "title": "Historia Polski",
+          "title": "Podwójna elekcja",
           "notes": [
             {
               "id": 1,
-              "content": "XVII wiek to okres istotny dla historii Polski, zwłaszcza z uwagi na liczne wydarzenia polityczne, społeczne i kulturalne."
+              "content": "Podwójna elekcja to wydarzenie historyczne związane z wyborem dwóch monarchów dla jednego kraju w Polsce. W kontekście, który przedstawiłeś, chodzi o sytuację\n" +
+                  "z lat 1575-1576, z udziałem Henryka Walezego:"
             },
             {
               "id": 2,
-              "content": "Rządy króla Jana III Sobieskiego były jednym z najważniejszych momentów tego stulecia."
+              "content": "1574 - Ucieczka Henryka Walezego:\n" +
+                  "    Henryk Walezy, brat króla Francji Karola IX, uciekł do Polski w 1574 roku. Jego przybycie miało związek z nadziejami na objęcie polskiego tronu.\n"
             },
             {
               "id": 3,
-              "content": "W tym okresie Polska była państwem o stosunkowo dużym terytorium, sięgającym Bałtyku na północy i Morza Czarnego na południu."
+              "content": "    1575 - Sejm Konwokacyjny:\n" +
+                  "    Sejm konwokacyjny został zwołany w 1575 roku, aby wybrać nowego króla po śmierci króla Zygmunta II Augusta. To właśnie na tym sejmie rozpoczęły się\n" +
+                  "wybory, które później przekształciły się w podwójną elekcję."
             }
           ]
         },
         {
-          "title": "Wojny i konflikty",
+          "title": "Stefan Batory (1533-1586)",
           "notes": [
             {
               "id": 4,
-              "content": "Polska była zaangażowana w różne konflikty w XVII wieku, takie jak wojny z Turcją, Rosją i Szwecją."
-            },
-            {
-              "id": 5,
-              "content": "Bitwa pod Kircholmem w 1605 roku była jednym z ważniejszych starć z udziałem Polski w XVII wieku."
+              "content": "Stefan Batory (1533-1586) był królem Polski od 1576 do 1586 roku. Pochodził z Transylwanii. Jego panowanie było okresem istotnych reform i konfliktów zbrojnych. Batory znany jest przede \n" +
+                  "wszystkim z odniesienia zwycięstwa w wojnie z Moskwą oraz prób modernizacji kraju. Był także mężem Anny Jagiellonki, co miało znaczenie dla jednoczenia dwóch gałęzi dynastii Jagiellonów."
             }
           ]
         },
         {
-          "title": "Kultura i nauka",
+          "title": "Jan Zamojski (1542-1605)",
           "notes": [
             {
-              "id": 6,
-              "content": "W XVII wieku rozwijała się kultura i sztuka w Polsce, szczególnie w okresie baroku."
-            },
-            {
-              "id": 7,
-              "content": "W tym czasie działalność artystyczna takich postaci jak Jan III Sobieski, król-pisarz, miała duże znaczenie dla polskiej kultury."
+              "id": 5,
+              "content": "Jan Zamojski (1542-1605) był polskim magnatem, hetmanem wielkim koronnym, kanclerzem wielkim koronnym i fundatorem Akademii Zamojskiej. Był jednym z najważniejszych\n" +
+                  "polityków okresu renesansu w Polsce. Zamojski wyróżniał się zarówno talentem wojskowym, jak i zdolnościami administracyjnymi. Jego postawa w czasie elekcji po śmierci\n" +
+                  "Zygmunta II Augusta przyczyniła się do wyboru Stefana Batorego na króla Polski. Aktywnie uczestniczył także w wojnach z Moskwą i Turcją."
             }
           ]
         }
