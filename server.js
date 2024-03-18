@@ -288,7 +288,62 @@ app.get("/*", (req, res) => {
           ]
         }
       ]
-    }
+    },
+    {
+      "title": "Układ krwionośny i odpornościowy",
+      "subtopics": [
+        {
+          "title": "Układ krwionośny",
+          "notes": [
+            {
+              "id": 1,
+              "content": "Układ krwionośny składa się z serca, krwi i naczyń krwionośnych i pełni kluczową rolę w transporcie składników odżywczych, gazów oraz hormonów."
+            },
+            {
+              "id": 2,
+              "content": "Serce jest centralnym organem układu krwionośnego, pompującym krew do całego ciała, co umożliwia dostarczanie tlenu i usuwanie dwutlenku węgla."
+            },
+            {
+              "id": 3,
+              "content": "Krew składa się z płynnego osocza i elementów morfotycznych, takich jak czerwone krwinki, białe krwinki i płytki krwi, które pełnią różnorodne funkcje."
+            },
+            {
+              "id": 4,
+              "content": "Naczynia krwionośne, w tym arterie, żyły i naczynia włosowate, tworzą rozległą sieć, przez którą krew przepływa do i z różnych części ciała."
+            },
+            {
+              "id": 5,
+              "content": "Regulacja ciśnienia krwi jest kluczowa dla utrzymania prawidłowego przepływu krwi i dotlenienia tkanek."
+            }
+          ]
+        },
+        {
+          "title": "Układ odpornościowy",
+          "notes": [
+            {
+              "id": 6,
+              "content": "Układ odpornościowy chroni organizm przed patogenami, takimi jak bakterie, wirusy, grzyby i pasożyty, za pomocą złożonego zestawu mechanizmów."
+            },
+            {
+              "id": 7,
+              "content": "Obejmuje on zarówno odporność wrodzoną, pierwszą linię obrony, jak i odporność nabytą, która adaptuje się do rozpoznawania specyficznych patogenów."
+            },
+            {
+              "id": 8,
+              "content": "Komórki odpornościowe, takie jak limfocyty T i B oraz makrofagi, odgrywają centralną rolę w rozpoznawaniu i eliminowaniu zagrożeń."
+            },
+            {
+              "id": 9,
+              "content": "Szczepienia wykorzystują zdolność układu odpornościowego do uczenia się i pamiętania patogenów, zapewniając długotrwałą ochronę przed chorobami."
+            },
+            {
+              "id": 10,
+              "content": "Zaburzenia układu odpornościowego, takie jak autoimmunizacja lub immunosupresja, mogą prowadzić do szerokiego zakresu problemów zdrowotnych."
+            }
+          ]
+        }
+      ]
+    }    
   ]
 });
         });
