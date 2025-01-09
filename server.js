@@ -316,34 +316,77 @@ app.get("/*", (req, res) => {
               "content": "Regulacja ciśnienia krwi jest kluczowa dla utrzymania prawidłowego przepływu krwi i dotlenienia tkanek."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "title": "Genetyka",
+      "subtopics": [
         {
-          "title": "Układ odpornościowy",
+          "title": "Abberacje chromosomowe",
           "notes": [
             {
+              "id": 1,
+              "content": "Zespół Turnera X 0 45 chromosomów, "
+            },
+            {
+              "id": 2,
+              "content": "Zespół Klinofeltera XXY"
+            },
+            {
+              "id": 3,
+              "content": "Zespół Downa 21 para - 3 chromosomy"
+            }
+          ]
+        },
+        {
+          "title": "Biosynteza Białka",
+          "notes": [
+            {
+              "id": 1,
+              "content": "Biosynteza - tworzenie się białka"
+            },
+            {
+              "id": 2,
+              "content": "Transkrypcja (jądro komórkowe)"
+            },
+            {
+              "id": 3,
+              "content": "DNA -----------> mRNA   polimeraza(enzym)"
+            },
+            {
+              "id": 4,
+              "content": "Transalacja (cytpolazma)"
+            },
+            {
+              "id": 5,
+              "content": "mRNA ---------> białko    = tRNA"
+            },
+            {
+              "id": 5,
+              "content": "1. inicjacja 2. a 3. terminacja"
+            },
+            {
               "id": 6,
-              "content": "Układ odpornościowy chroni organizm przed patogenami, takimi jak bakterie, wirusy, grzyby i pasożyty, za pomocą złożonego zestawu mechanizmów."
+              "content": "autosomy 44 - 22 pary, chromosomy - 2 (1 para płci)"
             },
             {
-              "id": 7,
-              "content": "Obejmuje on zarówno odporność wrodzoną, pierwszą linię obrony, jak i odporność nabytą, która adaptuje się do rozpoznawania specyficznych patogenów."
+              "id" : 7,
+              "content": "AA - homozygota dominująca, aa - homozygota recesywna, Aa - heterozygota"
             },
             {
-              "id": 8,
-              "content": "Komórki odpornościowe, takie jak limfocyty T i B oraz makrofagi, odgrywają centralną rolę w rozpoznawaniu i eliminowaniu zagrożeń."
+              "id" : 8,
+              "content": "Niebieskooka kobieta poślubiła mężczyzne o brązowych oczach. Z tego związku urodziło się dziecko o niebieskich oczach. Rodzice matki mieli oczy brązowe, a rodzice mężczyzny matka niebieskie, a ojciec brązowe. Podaj genotypy wszystkich w tej rodzinie."
             },
             {
-              "id": 9,
-              "content": "Szczepienia wykorzystują zdolność układu odpornościowego do uczenia się i pamiętania patogenów, zapewniając długotrwałą ochronę przed chorobami."
-            },
-            {
-              "id": 10,
-              "content": "Zaburzenia układu odpornościowego, takie jak autoimmunizacja lub immunosupresja, mogą prowadzić do szerokiego zakresu problemów zdrowotnych."
+              "id" : 9,
+              "content" : "**Cechy dominujące u człowieka**: - ciemne włosy - kręcone włosy - długie rzęsy - ciemne oczy - ciemny kolor skóry - odstające uszy - piegi - orli nos - grupa krwi Rh+"
             }
           ]
         }
       ]
-    }    
+    },
+    
   ]
 });
         });
