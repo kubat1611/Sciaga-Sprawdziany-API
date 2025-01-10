@@ -383,6 +383,171 @@ app.get("/*", (req, res) => {
               "content" : "**Cechy dominujące u człowieka**: - ciemne włosy - kręcone włosy - długie rzęsy - ciemne oczy - ciemny kolor skóry - odstające uszy - piegi - orli nos - grupa krwi Rh+"
             }
           ]
+        },
+        {
+          "title": "Cechy sprężone z płcią",
+          "notes": [
+            {
+              "id": 1,
+              "content": "XX - kobieta, XY - mężczyzna"
+            },
+            {
+              "id": 2,
+              "content": "Dd - daltonizm, Hh - hemofilia, dd - recesywne allele"
+            },
+            {
+              "id": 3,
+              "content": "Y zawiera tylko męskie cechy, ale nic więcej"
+            },
+            {
+              "id": 4,
+              "content": "$X^D$$X^D$ - zdrowa kobieta, $X^D$$X^d$ - nosicielka, $X^d$$X^d$ - chora kobieta"
+            },
+            {
+              "id": 5,
+              "content": "$X^D$$Y$ - zdrowy mężczyzna, $X^d$$Y$ - chory mężczyzna"
+            },
+            {
+              "id": 6,
+              "content": "Kwadrat - osoba płci męskiej, Koło - osoba płci żeńskiej, Romb - osoba płci nieznanej"
+            },
+            {
+              "id": 7,
+              "content": "Zamalowane - osoby chore, Półzamalowane - nosiciele, Kropka w środku - choroba sprzężona z płcią"
+            },
+            {
+              "id": 8,
+              "content": "Choroba autosomalna - dominująca - 22 para chromosomów"
+            }
+          ]
+        },
+        {
+          "title": "Mutacje",
+          "notes": [
+            {
+              "id": 1,
+              "content": "Mutacja - nagła, trwała zmiana w materiale genetycznym, która w zależności od miejsca zachodzenia będzie dziedziczna lub niedziedziczna."
+            },
+            {
+              "id": 2,
+              "content": "Niedziedziczna mutacja zachodzi w komórkach somatycznych."
+            },
+            {
+              "id": 3,
+              "content": "Mutacje niekorzystne dla organizmu: - te wywołujące choroby"
+            },
+            {
+              "id": 4,
+              "content": "Mutacje korzystne dla organizmu: - te, które sprawiają, że organizm lepiej przystosowuje się do środowiska"
+            },
+            {
+              "id": 5,
+              "content": "Czynniki wpływające na mutacje: - fizyczne (np. promieniowanie) - chemiczne (np. konserwanty żywności) - biologiczne"
+            },
+            {
+              "id": 6,
+              "content": "Sposoby mutacji: - wstawienie nukleotydu - usunięcie nukleotydu - zamiana nukleotydu"
+            },
+            {
+              "id": 7,
+              "content": "Skutki mutacji genowych: - Zmiana sensu: zmiana trójki kodonów odczytujących aminokwas, powodująca powstanie innego aminokwasu - mutacja milcząca"
+            },
+            {
+              "id": 8,
+              "content": "Aberacje chromosomowe dotyczą: - budowy (strukturalne) - liczby chromosomów (liczbowe)"
+            },
+            {
+              "id": 9,
+              "content": "Trisomia: - XXY - zespół Klinefeltera - 21 - zespół Downa"
+            },
+            {
+              "id": 10,
+              "content": "Monosomia: - zespół Turnera"
+            },
+            {
+              "id": 11,
+              "content": "Poliploidalność: - 3n - 4n - 5n - ..."
+            },
+            {
+              "id": 12,
+              "content": "Choroby jednogenowe u człowieka:"
+            },
+            {
+              "id": 13,
+              "content": "- Sprzężone z płcią: - hemofilia - daltonizm - dystrofia mięśniowa - krzywica"
+            },
+            {
+              "id": 14,
+              "content": "- Niesprzężone recesywne: - mukowiscydoza: - dotyczy dróg oddechowych - nadmiar śluzu blokującego drogi oddechowe, oskrzela i oskrzeliki - powoduje duszności - fenyloketonuria: - jeden z aminokwasów nie jest prawidłowo rozkładany (głównie w mózgu), prowadząc do uszkodzenia nerwów - stosowanie odpowiedniej diety może zapobiec chorobie (dotyczy głównie młodych) - anemia sierpowata: - krwinki czerwone przybierają kształt sierpa zamiast być okrągłe - organizm jest niedotleniony - występuje niedokrwistość - albinizm: - brak produkcji barwnika w organizmie - choroba Huntingtona: - neurodegeneracyjna choroba genetyczna"
+            },
+            {
+              "id": 15,
+              "content": "- Niesprzężone dominujące: - pląsawica Huntingtona"
+            }
+          ] 
+        },
+        {
+          "title": "Inne sposoby dziedziczenia",
+          "notes": [
+            {
+              "id": 1,
+              "content": "**Niepełna dominacja**"
+            },
+            {
+              "id": 2,
+              "content": "**Kodominacja** - równorzędność alleli względem siebie: - żaden nie dominuje - żaden nie jest recesywny"
+            },
+            {
+              "id": 3,
+              "content": "| Genotyp | Grupa krwi | \n| ------- | ---------- | \n| AA ; Ai | A          | \n| BB ; Bi | B          | \n| AB      | AB         | \n| ii      | 0          |"
+            },
+            {
+              "id": 4,
+              "content": "**Dziedziczenie wielogenowe** - kilka genów określa daną cechę"
+            },
+            {
+              "id": 5,
+              "content": "Chromosomy homologiczne - identyczne chromosomy, tworzą parę"
+            },
+            {
+              "id": 6,
+              "content": "**Chromosomowa teoria dziedziczenia** Thomasa Morgana: - geny znajdują się w chromosomach - wszystkie geny ułożone są liniowo, jeden za drugim - każdy gen zajmuje ściśle określone miejsce (locus) na chromosomie - geny znajdujące się na jednym chromosomie nazywamy genami sprzężonymi, które dziedziczą się zależnie od siebie; najczęściej trafiają do jednej gamety i jedynie mogą być rozdzielone poprzez crossing-over w trakcie mejozy"
+            }
+          ]          
+        },
+        {
+          "title": "Inne sposoby dziedziczenia",
+          "notes": [
+            {
+              "id": 1,
+              "content": "Genetyka - nauka o dziedziczeniu, przekazywaniu informacji i zmienności organizmów"
+            },
+            {
+              "id": 2,
+              "content": "**Gen** - podstawowa jednostka dziedziczenia, fragment *DNA*, który zawiera informację genetyczną o budowie białka (cecha) lub cząsteczki *RNA*"
+            },
+            {
+              "id": 3,
+              "content": "# DNA\nDNA - kwas deoksyrybonukleinowy"
+            },
+            {
+              "id": 4,
+              "content": "A - reszta kwasu fosforowego\nB - cukier (ryboza/deoksyryboza)"
+            },
+            {
+              "id": 5,
+              "content": "**Zasady azotowe**\n- DNA: - adenina, guanina - tymina, cytozyna\n- RNA: - uracyl - adenina - guanina - cytozyna"
+            },
+            {
+              "id": 6,
+              "content": "**Zasada komplementarności**\n- Adenina = Tymina / Adenina - Uracyl\n- Guanina --- Cytozyna"
+            },
+            {
+              "id": 7,
+              "content": "Przykład komplementarnego zapisu:\nA G C T A A G C C T A A\nU C G A U U C G G A U U"
+            }
+          ]
+            
         }
       ]
     },
