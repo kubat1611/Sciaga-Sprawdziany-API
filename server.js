@@ -551,7 +551,108 @@ app.get("/*", (req, res) => {
         }
       ]
     },
-    
+    {
+      "title": "Białka - Chemia",
+      "subtopics": [
+      {
+      "title": "Budowa i właściwości białek",
+      "notes": [
+      {
+      "id": 1,
+      "content": "Białka - wielkocząsteczkowe polimery zbudowane z aminokwasów."
+      },
+      {
+      "id": 2,
+      "content": "Podstawową jednostką białek są aminokwasy połączone wiązaniami peptydowymi."
+      },
+      {
+      "id": 3,
+      "content": "Struktura aminokwasu: - grupa aminowa (-NH2) - grupa karboksylowa (-COOH) - podstawnik (R)"
+      },
+      {
+      "id": 4,
+      "content": "Właściwości białek: - denaturacja - koagulacja - rozpuszczalność"
+      }
+      ]
+      },
+      {
+      "title": "Struktura białek",
+      "notes": [
+      {
+      "id": 1,
+      "content": "Struktura pierwszorzędowa - kolejność aminokwasów w łańcuchu polipeptydowym."
+      },
+      {
+      "id": 2,
+      "content": "Struktura drugorzędowa - alfa-helisa i beta-harmonijka, stabilizowane wiązaniami wodorowymi."
+      },
+      {
+      "id": 3,
+      "content": "Struktura trzeciorzędowa - przestrzenne ułożenie łańcucha polipeptydowego."
+      },
+      {
+      "id": 4,
+      "content": "Struktura czwartorzędowa - sposób połączenia kilku łańcuchów polipeptydowych."
+      }
+      ]
+      },
+      {
+      "title": "Funkcje białek",
+      "notes": [
+      {
+      "id": 1,
+      "content": "Białka enzymatyczne - przyspieszają reakcje chemiczne (np. amylaza, pepsyna)."
+      },
+      {
+      "id": 2,
+      "content": "Białka transportowe - przenoszą substancje (np. hemoglobina)."
+      },
+      {
+      "id": 3,
+      "content": "Białka strukturalne - budują organizmy (np. kolagen, keratyna)."
+      },
+      {
+      "id": 4,
+      "content": "Białka odpornościowe - przeciwciała chroniące organizm."
+      },
+      {
+      "id": 5,
+      "content": "Białka regulatorowe - regulują procesy w organizmie (np. hormony białkowe)."
+      }
+      ]
+      },
+      {
+      "title": "Podział białek",
+      "notes": [
+      {
+      "id": 1,
+      "content": "Białka proste - zbudowane wyłącznie z aminokwasów (np. albuminy, histony)."
+      },
+      {
+      "id": 2,
+      "content": "Białka złożone - zawierają dodatkowe grupy chemiczne (np. hemoglobina, glikoproteiny)."
+      }
+      ]
+      },
+      {
+      "title": "Denaturacja i koagulacja białek",
+      "notes": [
+      {
+      "id": 1,
+      "content": "Denaturacja - trwałe zniszczenie struktury białka pod wpływem czynników fizycznych lub chemicznych."
+      },
+      {
+      "id": 2,
+      "content": "Czynniki denaturujące: - wysoka temperatura - promieniowanie UV - kwasy i zasady - metale ciężkie"
+      },
+      {
+      "id": 3,
+      "content": "Koagulacja - proces wytrącania białek z roztworu. Może być odwracalna (np. wysalanie) lub nieodwracalna."
+      }
+      ]
+      }
+      ]
+      }
   ]
 });
         });
