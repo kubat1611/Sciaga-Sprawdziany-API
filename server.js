@@ -652,6 +652,108 @@ app.get("/*", (req, res) => {
       ]
       }
       ]
+      },
+      {
+        "title": "Ewolucjonizm - Biologia",
+        "subtopics": [
+          {
+            "title": "Pojęcie ewolucji biologicznej",
+            "notes": [
+              {
+                "id": 1,
+                "content": "Ewolucja biologiczna - stopniowy proces zmian organizmów prowadzący do powstania nowych gatunków."
+              },
+              {
+                "id": 2,
+                "content": "Dowody na ewolucję: skamieniałości, narządy szczątkowe, podobieństwa w budowie i rozwoju zarodkowym."
+              }
+            ]
+          },
+          {
+            "title": "Mechanizmy ewolucji",
+            "notes": [
+              {
+                "id": 1,
+                "content": "Dobór naturalny - przeżywają i rozmnażają się osobniki najlepiej przystosowane do środowiska."
+              },
+              {
+                "id": 2,
+                "content": "Mutacje - losowe zmiany w DNA będące źródłem zmienności genetycznej."
+              },
+              {
+                "id": 3,
+                "content": "Rekombinacja genetyczna - mieszanie materiału genetycznego podczas rozmnażania płciowego."
+              },
+              {
+                "id": 4,
+                "content": "Dryf genetyczny - przypadkowe zmiany częstości alleli w małych populacjach."
+              }
+            ]
+          },
+          {
+            "title": "Dowody ewolucji",
+            "notes": [
+              {
+                "id": 1,
+                "content": "Skamieniałości - zachowane szczątki lub ślady organizmów z przeszłości."
+              },
+              {
+                "id": 2,
+                "content": "Narządy homologiczne - podobna budowa, różna funkcja (np. kończyny ssaków)."
+              },
+              {
+                "id": 3,
+                "content": "Narządy analogiczne - różna budowa, podobna funkcja (np. skrzydła ptaka i owada)."
+              },
+              {
+                "id": 4,
+                "content": "Narządy szczątkowe - pozostałości po przodkach (np. wyrostek robaczkowy u człowieka)."
+              },
+              {
+                "id": 5,
+                "content": "Rozwój zarodkowy - podobieństwa w ontogenezie różnych gatunków."
+              }
+            ]
+          },
+          {
+            "title": "Teorie ewolucji",
+            "notes": [
+              {
+                "id": 1,
+                "content": "Lamarkizm - teoria zakładająca dziedziczenie cech nabytych (np. wydłużenie szyi u żyrafy przez rozciąganie)."
+              },
+              {
+                "id": 2,
+                "content": "Darwinizm - teoria doboru naturalnego, oparta na obserwacjach przyrody i hodowli gołębi."
+              },
+              {
+                "id": 3,
+                "content": "Neodarwinizm - współczesna teoria ewolucji łącząca darwinizm z genetyką populacyjną."
+              }
+            ]
+          },
+          {
+            "title": "Specjacja",
+            "notes": [
+              {
+                "id": 1,
+                "content": "Specjacja - proces powstawania nowych gatunków w wyniku izolacji i różnicowania populacji."
+              },
+              {
+                "id": 2,
+                "content": "Izolacja rozrodcza - mechanizmy uniemożliwiające krzyżowanie się różnych gatunków (np. różnice w czasie rozrodu)."
+              },
+              {
+                "id": 3,
+                "content": "Specjacja allopatryczna - powstaje na skutek geograficznej izolacji populacji."
+              },
+              {
+                "id": 4,
+                "content": "Specjacja sympatryczna - zachodzi bez fizycznej bariery, np. przez zmiany ekologiczne lub genetyczne."
+              }
+            ]
+          }
+        ]
       }
   ]
 });
